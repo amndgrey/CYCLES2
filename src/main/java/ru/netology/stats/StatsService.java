@@ -44,7 +44,6 @@ public class StatsService {
     }
 
     public int minCountMonth(int[] profits, int averageSum) {
-//        int averageSum = 15;
         int count = 0;
         for (int i = 0; i < profits.length; i++) {
             if (profits[i] < averageSum) {
@@ -56,7 +55,6 @@ public class StatsService {
     }
 
     public int maxCountMonth(int[] profits, int averageSum) {
-//        int avarageSum = 15;
         int count = 0;
         for (int i = 0; i < profits.length; i++) {
             if (profits[i] > averageSum) {
